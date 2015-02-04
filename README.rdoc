@@ -23,9 +23,13 @@ Stories:
 
 * Create a dog model
 * When a user clicks on create dog, they are taken to a form to create a dog.
-* From the following params, /users/1/dogs/new the 1 would go to the user_id column.
+* From the following url, /users/1/dogs/new the 1 would go to the user_id column.
 * The user_id column is where we will save the user's id that the dog belongs to.
 * The dog will belong to the user that create dog was clicked on. (user_id)
 * When visiting a user show page, all of the dogs that belong to that user should be shown.
 * Remember that we have to explain to our models that they interact with each other
 * (belongs_to, has_many)
+* Check out the routes file- You don't have to update but notice how resources :dogs is nested
+  in resources :users. This gives us urls such as /users/1/dogs/new
+
+* The only view files you will need are dogs/new, users/index and users/show
