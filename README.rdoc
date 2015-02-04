@@ -12,6 +12,7 @@ Notice the url: '/users/1/dogs/new'
 
 Stories:
 
+* bundle
 * rake db:create db:migrate db:seed
 
 * Create a migration for dogs with the following attributes:
